@@ -17,7 +17,7 @@
       margin: 20px;
     }
     #leftPanel, #rightPanel {
-      width: 240px;
+      flex: 0 0 20%;
       padding: 10px;
     }
     #mapContainer {
@@ -52,6 +52,7 @@
 
     #map {
       display: block;
+      width: 100%;
       margin: auto;
     }
     .tooltip {
@@ -101,7 +102,7 @@
       </div>
     </div>
     <div id="mapContainer">
-      <svg id="map" width="960" height="600"></svg>
+      <svg id="map" width="900" height="600"></svg>
     </div>
     <div id="rightPanel">
       <div class="control-group" id="zoomControl">
@@ -218,7 +219,7 @@
     const stateStats = new Map();
 
     Promise.all([
-      d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
+      d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-10m.json"),
       d3.csv("us_accident_2020.csv")
     ]).then(([us, data]) => {
       data.forEach(d => {
