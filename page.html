@@ -281,7 +281,7 @@
       g.selectAll("circle").remove();
 
       g.selectAll("circle")
-        .data(data.filter(d => projection([d.Lng, d.Lat])))
+        .data(data.filter(d => projection([d.Lng, d.Lat])).sort((a, b) => a.Severity - b.Severity)) // Draw layers ordered by severity
         .enter().append("circle")
         .attr("cx", d => projection([d.Lng, d.Lat])[0])
         .attr("cy", d => projection([d.Lng, d.Lat])[1])
