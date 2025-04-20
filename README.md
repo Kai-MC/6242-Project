@@ -27,12 +27,14 @@ This repository contains all code, assets, and documentation needed to reproduce
 
 ## Getting Started
 
-### 1. Clone the Repository
+.
+├── .gitignore
+├── Prediction model.ipynb    # Jupyter notebook for training & evaluating the LightGBM model
+├── README.md                 # (this file)
+├── page.html                 # Static HTML & JavaScript (D3.js + TopoJSON) dashboard
+├── parse_csv.py              # Data ingestion & preprocessing script
+└── img/                      # Screenshots and example visuals used in the docs
 
-```bash
-git clone https://github.com/YourUsername/AccidentScope.git
-cd AccidentScope
-```
 
 data csv at:
 
