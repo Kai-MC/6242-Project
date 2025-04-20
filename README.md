@@ -1,4 +1,38 @@
-# 6242-Project
+# AccidentScope
+
+**An Interactive Visualization Platform for Comprehensive Road Safety Analysis**
+
+---
+
+## Overview
+
+AccidentScope is a web‑based dashboard and machine learning pipeline for exploring and predicting traffic accident severity across the United States. It combines:
+
+- **Geospatial visualization** (D3.js + TopoJSON) for interactive exploration of accident hotspots and environmental conditions.
+- **Gradient‑boosted models** (LightGBM) for multiclass severity classification.
+- **Data parsing scripts** to preprocess raw accident data into analysis‑ready form.
+
+This repository contains all code, assets, and documentation needed to reproduce the AccidentScope pipeline and launch the dashboard locally.
+
+---
+
+## Features
+
+- **Interactive map**: Filter by time, weather, road conditions, and more.  
+- **Real‑time updates**: Adjust controls to instantly see how filters affect accident patterns.  
+- **Severity prediction**: Pretrained LightGBM model to score new accident records.  
+- **Modular data pipeline**: Reusable CSV parsing, feature engineering, and modeling scripts.  
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YourUsername/AccidentScope.git
+cd AccidentScope
+
 
 data csv at:
 
