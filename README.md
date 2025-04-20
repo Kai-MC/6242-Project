@@ -32,7 +32,7 @@ This repository contains all code, assets, and documentation needed to reproduce
 ```bash
 git clone https://github.com/YourUsername/AccidentScope.git
 cd AccidentScope
-
+```
 
 data csv at:
 
