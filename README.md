@@ -25,8 +25,8 @@ This repository contains all code, assets, and documentation needed to reproduce
 
 ---
 
-## Getting Started
-
+## Strctures
+```
 .
 ├── .gitignore
 ├── Prediction model.ipynb    # Jupyter notebook for training & evaluating the LightGBM model
@@ -34,7 +34,7 @@ This repository contains all code, assets, and documentation needed to reproduce
 ├── page.html                 # Static HTML & JavaScript (D3.js + TopoJSON) dashboard
 ├── parse_csv.py              # Data ingestion & preprocessing script
 └── img/                      # Screenshots and example visuals used in the docs
-
+```
 
 data csv at:
 
