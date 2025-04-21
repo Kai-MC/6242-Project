@@ -36,6 +36,28 @@ This repository contains all code, assets, and documentation needed to reproduce
 └── img/                      # Screenshots and example visuals used in the docs
 ```
 
-data csv at:
+---
 
-https://drive.google.com/file/d/1c0qDcE_5LGycpj9uBY3JVoRfY-_Kbiq0/view?usp=drive_link
+## INSTALLATION
+
+1. download data csv at:
+
+`https://drive.google.com/file/d/1c0qDcE_5LGycpj9uBY3JVoRfY-_Kbiq0/view?usp=drive_link`
+
+2. download code from zipfile or github 
+
+`https://github.com/Kai-MC/6242-Project.git`
+
+
+---
+## EXECUTION
+
+1. Serve `page.html` on a local HTTP server.
+   ```bash
+   # Python 3.x
+   python -m http.server 8000
+   ```
+2. Open your browser to `http://localhost:8000/page.html`.
+3. Use the left‑hand filters (sliders, dropdowns, checkboxes) to explore accident patterns on the map.
+
+
